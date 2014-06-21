@@ -5,6 +5,7 @@ The run_analysis script will display the tidy data set.
 The script works as indicated below:
 
 1-Read all files from "UCI HAR Dataset"
+
 2-Merges the training and the test sets to create one data set.
 
 3-Extracts only the measurements on the mean and standard deviation for each measurement. 
