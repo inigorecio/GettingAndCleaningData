@@ -3,9 +3,14 @@ To run the run_analysis.R set the correct path into setwd command. The correct p
 The run_analysis script will display the tidy data set.
 
 The script works as indicated below:
-Read all files from "UCI HAR Dataset"
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Uses descriptive activity names to name the activities in the data set
-Labels the data set with descriptive variable names. 
-Creates a tidy data set with the average of each variable for each activity and each subject.
+
+1-Read all files from "UCI HAR Dataset"
+2-Merges the training and the test sets to create one data set.
+
+3-Extracts only the measurements on the mean and standard deviation for each measurement. 
+
+4-Uses descriptive activity names to name the activities in the data set
+
+5-Labels the data set with descriptive variable names. 
+
+6-Creates a tidy data set with the average of each variable for each activity and each subject.
