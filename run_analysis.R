@@ -66,5 +66,4 @@ f$featAxis <- factor(x %*% y, labels=c(NA, "X", "Y", "Z"))
 setkey(f, subject, activity, featDomain, featAcceleration, featInstrument, featJerk, featMagnitude, featVariable, featAxis)
 fTidy <- f[, list(count = .N, average = mean(value)), by=key(f)]
 fTidy
-
-#write.table(fTidy, "tidy.csv")
+write.table(fTidy, "tidy.csv")
