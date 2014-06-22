@@ -1,6 +1,6 @@
 To run the run_analysis.R set the correct path into setwd command. The correct path is the path where you are running the script. This path must include the "UCI HAR Dataset" folder containing all the data. "data.table" and "reshape2" packages are required.
 
-The run_analysis script will display the tidy data set.
+The run_analysis script will display the tidy data set in screen and it will create "tidy.csv" file in execution directory.
 
 The script works as indicated below:
 
