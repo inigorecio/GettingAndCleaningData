@@ -1,18 +1,27 @@
 Input data
 ----------
 X_test.txt
+
 X_train.txt
+
 y_test.txt
+
 y_train.txt
+
 subject_test.txt
+
 subject_train.txt
+
 features.txt
+
 activity_labels.txt
 
 Requirements
 ------------
 1- To run the run_analysis.R set the correct path into setwd command. The correct path is the path where you are running the script. 
+
 2- This path must include the "UCI HAR Dataset" folder containing all the data. 
+
 3- "data.table" and "reshape2" packages are required.
 
 
@@ -34,15 +43,25 @@ Transformations
 Output data
 -----------
 The run_analysis script will display the tidy data set in screen and it will create "tidy.csv" file in execution directory.
+
 Columns:
+
 subject
+
 activity
+
 featDomain
+
 featAcceleration
+
 featInstrument
+
 featJerk
+
 featMagnitude
+
 featVariable
+
 featAxis
 
 
