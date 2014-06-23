@@ -1,5 +1,7 @@
 Input data
 ----------
+The source file is https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip containing the following files:
+
 X_test.txt
 
 X_train.txt
